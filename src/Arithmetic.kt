@@ -1,4 +1,7 @@
-class Arithmetic(private val x: Int, private val y: Int) {
+class Arithmetic(
+    private val x: Int,
+    private val y: Int
+) {
 
     fun add() {
         val result = x + y
@@ -17,10 +20,12 @@ class Arithmetic(private val x: Int, private val y: Int) {
 }
 
 fun main() {
-    val arithmetic =  Arithmetic(7, 6)
+    val arithmetic = Arithmetic(7, 6)
     arithmetic.add()
     arithmetic.subtract()
     arithmetic.multiply()
 }
 
-// THIS LINE CODE IS JUST TO TEST MY NEW PERSONAL ACCESS TOKEN ON GITHUB
+// move this code to another folder in my local machine,
+// and I am testing if git will not bring up any issue.
+// if this code successfully gets pushed, then git did not bring up any issue
